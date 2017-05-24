@@ -1,0 +1,41 @@
+{
+  "name": "web-perf-optimization-project",
+  "version": "1.0.0",
+  "description": "frontend-nanodegree",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.4.0",
+    "gulp-compress": "0.0.9",
+    "gulp-concat": "^2.6.1",
+    "gulp-delete-file": "^1.0.2",
+    "gulp-filter": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^3.0.0",
+    "http-server": "^0.10.0",
+    "vinyl-paths": "^2.1.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "scripts": {
+    "_COMMENT1": "You can use `npm run WHATEVER` to run any command you put into this `scripts` section of your package.json file, and if you reference a command that doesn’t exist on your computer’s PATH, then it’ll go searching through the node_modules of your project for it.",
+    "_COMMENT2": "THE `gulp` PROPERTY BELOW ALLOWS USERS TO SIMPLY USE `npm run gulp` WHEN THEY BUILD LOCALLY, WHICH IS GOOD TO PROVIDE SINCE NOT EVERYONE USES GULP.",
+    "gulp": "gulp --verbose",
+	"try-me": "http-server ./dist -p 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan-DESIGN/ryan-DESIGN.github.io.git"
+  },
+  "author": "Ryan Mcneff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan-DESIGN/ryan-DESIGN.github.io/issues"
+  },
+  "homepage": "https://github.com/ryan-DESIGN/ryan-DESIGN.github.io#readme"
+}
